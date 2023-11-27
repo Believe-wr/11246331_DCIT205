@@ -1,0 +1,150 @@
+body {
+    color: #777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+    margin: auto;
+    max-width: 1170px;
+    padding: 10px;
+}
+#header {
+    width: 100% !important;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+        
+}
+#mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    z-index: 999;
+    top: 33px;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    display: none;
+    transition: all 0.4s;
+    outline: none;
+    cursor: pointer;
+}
+.menu-list a {
+        padding: 0 8px 0px 8px;
+        text-decoration: none;
+        display: inline-block;
+        color: #000;
+        font-weight: 500;
+        font-size: 12px;
+        text-transform: uppercase;
+        outline: none;
+    }
+    ul li{
+        display: inline-block;
+        margin-left: 15px;
+        }
+        .menu-list{
+            padding-bottom: 10px;
+    padding-top: 10px;
+        }
+        .menu-list{
+              position: relative;
+                white-space: nowrap;
+                }
+                .menu-list a:hover{
+                    background-color: #bd9c6c;
+                    color: white;
+                    transition: all 0.3s ease;
+                    }
+                    .logo{
+                        margin-top: 30px;
+                        width: 290px;
+                        margin-left: 60px;
+
+                    }
+                    .background{
+                      width: 100%;
+                      height: 480px;
+                      object-fit: cover;
+                      filter: brightness(30%);        
+                    }
+                    #text-size{
+                      text-align: center;
+                      font-size: 36px;
+                      font-family: "poppin" , sans-serif;
+                      font-weight: 800;
+                      position: relative;
+                      margin-top:-20% ;
+                      
+                    } 
+                    .text{
+                      color: white;
+                    }
+                    .text2{
+                      margin-top: 14%;
+                      text-align: center;
+                      padding: 20px;
+                      color: #212529;
+                      font-size: 36px;
+
+                    }
+                    .texts{
+                      text-align:center ;
+                      font-size: 17px;
+                      word-spacing: 1.5px;
+                      padding: 10px;
+                    }
+                    #textarea{
+                      margin-top: -20px;
+                      border-bottom: 1px solid #777;
+                    }
+                     .column {
+                        float: left;
+                        width: 47.3%;
+                        margin-bottom: 16px;
+                        padding: 0 8px;
+                      }
+                      .card {
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                        margin: 8px;
+                      }
+
+                      .about-section {
+                        padding: 50px;
+                        text-align: center;
+                        background-color: #474e5d;
+                        color: white;
+                      }
+              .container {
+                font-size: 18px;
+                padding:20px;
+              }
+              .container::after, .row::after {
+                content: "";
+                clear: both;
+                display: table;
+              }
+              @media screen and (max-width: 550px) {
+                .column {
+                  width: 100%;
+                  display: inline-block;
+                }
+}
+.word{
+font-size: 36px;
+color:  #212529;
+}
+.headtext{
+font-size: 36px;
+color:  #212529;
+text-align: center;
+}
+.subtext{
+text-align: center ;
+font-size: 17px;
+}
+

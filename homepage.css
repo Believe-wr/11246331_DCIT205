@@ -1,0 +1,77 @@
+body {
+    color: #333;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.425em;
+    position: relative;
+    margin: auto;
+    max-width: 1170px;
+    background-color: white;
+        }
+
+.banner-content{
+padding-top:-500px;
+padding-bottom:80px;
+margin-left:-320px;
+}
+.banner-content h1{
+font-size: 49px;
+text-transform: uppercase;
+}
+.banner-content h1{
+font-weight: 900;
+margin-top: 0;
+margin-left: 40%;
+color:white;
+line-height: 1.5em;
+font-family: "poppins" sans-serif;
+
+
+}
+.banner-content{
+text-align: left;
+display: block;
+margin-bottom: 0 ;
+margin-top: -40%;
+
+}
+a:focus{
+text-decoration: none;
+outline: 0;
+}
+
+.container-main-menu{
+margin-top:-35px;
+
+
+}
+ul li{
+display: inline-block;
+margin-left: 40px;
+}
+.nav-menu a{
+padding: 0 ;
+text-decoration: none;
+display: inline-block;
+color: black;
+font-weight: 500;
+font-size: 12px;
+text-transform: uppercase;
+outline: none;
+}
+.nav-menu{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.nav-menu li{
+position: relative;
+white-space: nowrap;
+}
+
+.nav-menu a:hover{
+background-color: #bd9c6c;
+color: white;
+transition: all 0.3s ease;
+}

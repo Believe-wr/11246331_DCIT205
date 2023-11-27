@@ -1,0 +1,152 @@
+body {
+    color: #777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+    margin: auto;
+    max-width: 1170px;
+    padding: 10px;
+}
+#header {
+    width: 100% !important;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+
+}
+#mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    z-index: 999;
+    top: 33px;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    display: none;
+    transition: all 0.4s;
+    outline: none;
+    cursor: pointer;
+}
+.menu-list a {
+        padding: 0 8px 0px 8px;
+        text-decoration: none;
+        display: inline-block;
+        color: #000;
+        font-weight: 500;
+        font-size: 12px;
+        text-transform: uppercase;
+        outline: none;
+    }
+    ul li{
+        display: inline-block;
+        margin-left: 15px;
+        }
+        .menu-list{
+            padding-bottom: 10px;
+    padding-top: 10px;
+        }
+        .menu-list{
+              position: relative;
+                white-space: nowrap;
+                }
+                .menu-list a:hover{
+                    background-color: #bd9c6c;
+                    color: white;
+                    transition: all 0.3s ease;
+                    }
+                    .logo{
+                        margin-top: 30px;
+                        width: 290px;
+                        margin-left: 60px;
+
+                    }
+                    .background{
+                      width: 100%;
+                      height: 480px;
+                      object-fit: cover;
+                      filter: brightness(30%); 
+                    }
+                    #text-size{
+                        text-align: center;
+                        font-size: 36px;
+                        font-family: "poppin" , sans-serif;
+                        font-weight: 800;
+                        position: relative;
+                        margin-top:-20% ;
+
+                      } 
+                      .text{
+                        color: white;
+                      }
+                      .maps{
+                        position: relative;
+                        margin-left: 10%;
+                        margin-top: 12%;
+                        filter: brightness(50%);
+                      }
+                      input[type=text], select, textarea {
+                        width: 100%;
+                        padding: 12px;
+                        border: 1px solid #ccc;
+                        margin-top: 6px;
+                        margin-bottom: 16px;
+                        resize: vertical;
+                      }
+
+                      input[type=SEND] {
+                        background-color: #04AA6D;
+                        color: white;
+                        padding: 12px 20px;
+                        border: none;
+                        cursor: pointer;
+                      }
+
+                      input[type=SEND ]:hover {
+                        background-color: #45a049;
+                      }
+
+                      /* Style the container/contact section */
+                      .container {
+                        border-radius: 5px;
+                        background-color: #f2f2f2;
+                        padding: 10px;
+                      }
+
+                      /* Create two columns that float next to eachother */
+                      .column {
+                        float: left;
+                        width: 30%;
+                        padding: 20px;
+                        margin-left: 50%;
+                        position: relative;
+                        margin-top: -28%;
+                      }
+
+
+                      /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+                      @media screen and (max-width: 600px) {
+                        .column, input[type=SEND] {
+                          width: 100%;
+                          margin-top: 0;
+                        }
+                      }
+                      .details{
+                        margin-left: 20%;
+                      }
+                     #textbox{
+                        text-align: right;
+                        padding: 20px;
+                        margin-right: 20px;
+                        margin-top: -15px;
+                      }
+                      .textbold{
+                        font-weight: 300;
+                        font-size: 16px;
+                        margin-bottom: 5px;
+                      }
