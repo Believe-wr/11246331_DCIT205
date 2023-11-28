@@ -70,7 +70,7 @@ body {
                       width: 100%;
                       height: 480px;
                       object-fit: cover;
-                      filter: brightness(30%); 
+                      filter: brightness(40%); 
                     }
                     #text-size{
                         text-align: center;
@@ -84,3 +84,33 @@ body {
                       .text{
                         color: white;
                       }
+                      .main-section{
+                        margin-top: 15%;
+                        padding: 20px;
+                        padding-bottom: 15px;
+                      }
+                      .dean{
+                        font-size: 25px;
+                        font-weight: 300;
+                        margin-left: -38%;
+                        margin-top: 10px;
+                        color: #000;
+
+                      }
+                        
+                .about-us img {
+                    width:25%;
+                    float:left;
+                }
+                .about-us div {
+                    width:70%;
+                    margin-left:20px;
+                    float:left;
+                    line-height:35px;
+                    font-size: 19px;
+                }
+                  
+                .gallery img {
+                    width: 24%;
+                }
+               
