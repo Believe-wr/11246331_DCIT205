@@ -1,0 +1,149 @@
+body {
+    color: #777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+    margin: auto;
+    max-width: 1170px;
+    padding: 10px;
+}
+#header {
+    width: 100% !important;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+        
+}
+#mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    z-index: 999;
+    top: 33px;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    display: none;
+    transition: all 0.4s;
+    outline: none;
+    cursor: pointer;
+}
+.menu-list a {
+        padding: 0 8px 0px 8px;
+        text-decoration: none;
+        display: inline-block;
+        color: #000;
+        font-weight: 500;
+        font-size: 12px;
+        text-transform: uppercase;
+        outline: none;
+    }
+    ul li{
+        display: inline-block;
+        margin-left: 15px;
+        }
+        .menu-list{
+            padding-bottom: 0;
+            padding-top: 0;
+        }
+        .menu-list{
+              position: relative;
+                white-space: nowrap;
+                }
+                .menu-list a:hover{
+                    background-color: #bd9c6c;
+                    color: white;
+                    transition: all 0.3s ease;
+                    }
+                    .logo{
+                        margin-top: 20px;
+                        width: 290px;
+                        margin-left: 60px;
+
+                    }
+                    .background{
+                      width: 100%;
+                      height: 480px;
+                      object-fit: cover;
+                      filter: brightness(40%); 
+                             
+                    }
+                    #text-size{
+                      text-align: center;
+                      font-size: 36px;
+                      font-family: "poppin" , sans-serif;
+                      font-weight: 800;
+                      position: relative;
+                      margin-top:-20% ;
+                      
+                    } 
+                    .text{
+                      color: white;
+                    }*, *:before, *:after {
+                      box-sizing: inherit;
+                    }
+                    
+                    .column {
+                      float: left;
+                      width: 33.3%;
+                      margin-bottom: 16px;
+                      border-radius: 10%;
+                      
+                    }
+                    
+                    .card {
+                      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                      margin: 8px;
+                    }
+                    
+                    .about-section {
+                      padding: 50px;
+                      text-align: center;
+                      background-color: #474e5d;
+                      color: white;
+                    }
+                    
+                    .container {
+                      padding: 0 16px;
+                    }
+                    
+                    .container::after, .row::after {
+                      content: "";
+                      clear: both;
+                      display: table-row-group;
+                    }
+                    
+                    .title {
+                      color: grey;
+                    }
+                    
+                    
+                    
+                    @media screen and (max-width: 650px) {
+                      .column {
+                        width: 100%;
+                        display: block;
+                      }
+                    }
+                    .workarea{
+                      margin-top: 17%;
+                      }
+                      .row{
+                        margin-top: 15%;
+                        text-align: center;
+                      }
+                      .titlebar{
+                        font-size: 27px;
+                        font-weight: 900;
+                        color: #2C2A58;
+                      }
+                      .boldtext{
+                        font-size: 26px;
+                        font-weight: 900;
+                        color: #2C2A58;
+                      }
